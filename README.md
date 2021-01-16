@@ -11,6 +11,10 @@ If you need a password email me.
 
 **Illustrations by Yingjie Wang**
 
+**Written for Farah Griffin's Toni Morrison seminar at Columbia University**
+
+**Released with Columbia Int Fic**
+
 This project is an experimentation of writing interactive stories in unexpected mediums (e.g. gcal). 
 The following tutorials/resources were used in order to make the story:
 - Glitchy "Trash 2020" headline (CSS) modified from hawcubite (https://codepen.io/hawcubite/pen/JzNJpw)
