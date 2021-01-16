@@ -11,7 +11,7 @@ If you need a password email me.
 
 **Illustrations by Yingjie Wang**
 
-**Written for Farah Griffin's Toni Morrison seminar at Columbia University**
+**Final Project for Professor Farah Griffin's Toni Morrison seminar at Columbia University**
 
 **Released with Columbia Int Fic**
 
@@ -27,6 +27,8 @@ The following tutorials/resources were used in order to make the story:
 **Illustrations by Benjamine Mo**
 
 **Tech implementation by Lauren Alcindor**
+
+**Final Project for Professor Denise Cruz's Intro to Asian American Literature & Culture**
 
 This project tells the day in the life of two characters from Monique Truong's *Book of Salt*. It uses a unique dialogue structure with a basis in a play I wrote called *Tongues*, but adapted for the online medium. 
 The following tutorials/resources were used in order to make the story:
