@@ -43,6 +43,6 @@ I created the main and offshoot webpages for Barnard Pandemic Panels with Profes
 
 **Performed by Columbia University's Black Theatre Ensemble (Afrofuturism Festival of plays)**
 
-**Published by University of Pennsylvania's *La Vida* Magazine**
+**Published by University of Pennsylvania's *La Vida* Magazine** (https://issuu.com/lavidapenn/docs/2018_magazine_for_issuu/56)
 
 The first play I wrote, this piece tells the story of a budding painter whose dreams create an impossible image.  
