@@ -47,9 +47,9 @@ ul {
     list-style-type: none;
 }
 
-/* Mobile */
+/* Mobile - changed from 600 to 450 */
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 450px) {
   h1 {font-size: 375%;
   }
   h3 {
@@ -100,9 +100,11 @@ ul {
       font-size: 25px;
   }
 
-/* accessibility for mobile - form */
+/* accessibility for mobile - form 
+changed max width from 600 to 450
+*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 450px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
