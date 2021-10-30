@@ -1,0 +1,110 @@
+body {
+    background-color: #f5f5dc;
+    color: black;
+    font-family: sans-serif;
+    padding: 50px;
+    margin: 20px;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 375%;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black; 
+}
+
+p {
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+    line-height: 3.0;
+}
+
+ul {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/* Mobile */
+
+@media screen and (max-height: 600px) {
+  h1 {font-size: 375%;
+  }
+  h3 {
+    font-size: 45px;
+  }
+  p {font-size: 40px;
+  }
+}
+
+/* NAVBAR */
+
+.sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+  
+  .sidenav a {
+
+    color: black;
+    display: block;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+  }
+  
+  /* accessibility for mobile - navbar */
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* Form */
+  
+  input, textarea, select, button {
+    width : 400px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+
+  label {
+      margin: 20px;
+      font-size: 25px;
+  }
+
+/* accessibility for mobile - form */
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
