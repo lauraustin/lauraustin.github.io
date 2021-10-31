@@ -1,8 +1,13 @@
 body {
     background-color: #f5f5dc;
     color: black;
+    background-image: url(images/opacity2.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
     font-family: sans-serif;
-    padding: 50px;
+    padding: 25px;
     margin: 20px;
     line-height: 2;
 }
@@ -48,7 +53,8 @@ ul {
 }
 
 img {
-  width: 75%;
+  width: 60%;
+  display: block;
 }
 
 /* NAVBAR */
