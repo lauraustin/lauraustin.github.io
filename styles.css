@@ -1,30 +1,30 @@
 body {
     background-color: #f5f5dc;
     color: black;
-    background-image: url(images/opacity2.png);
-    background-size: 65%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed;
     font-family: sans-serif;
-    padding: 25px;
-    margin: 20px;
-    line-height: 2;
+    font-size: 100%;
+    padding: 1.5em; 
+    margin: 1em;
 }
 
 h1 {
-    font-size: 60px;
-    margin: 20px;
+    font-size: 6em;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5dc;
+    /* allegedly will help with word overlap? padding: 0.625em; */
 }
 
 h2 {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 1.5em;
+    margin: 1em;
 }
 
 h3 {
-    font-size: 30px;
-    margin: 20px;
+    font-size: 1.875em;
+    margin: 1em;
 }
 
 a:link {
@@ -42,14 +42,10 @@ a:visited {
 
 p {
     text-align: left;
-    margin: 20px;
-    font-size: 25px;
+    margin: 1.25em;
+    font-size: 1.5625em;
     line-height: 3.0;
-}
-
-ul {
-    font-size: 25px;
-    list-style-type: none;
+    /* should help with overlap?? padding: 1em; */
 }
 
 img {
@@ -59,25 +55,30 @@ img {
 
 /* NAVBAR */
 
-.sidenav {
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
+ul {
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
+
+li {
+    float: right;
+}
   
-  .sidenav a {
+li a {
 
     color: black;
     display: block;
   }
   
   .main {
-    margin-left: 200px; /* Same width as the sidebar + left position in px */
-    padding: 0px 10px;
+    margin-left: 12.5em; /* Same width as the NAVBAR + left position in px */
+    padding: 0em 0.625em 10em;
   }
   
-  /* accessibility for mobile - navbar */
+  /* accessibility for mobile - navbar --> should change to em, but have too redo all of it anyway... */
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
