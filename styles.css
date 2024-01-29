@@ -121,6 +121,7 @@ textarea[id=message] {
 
 input[type=submit] {
     font-size: 1.5em;
+    color: black;
     margin: 0em 0em 1em 1.5em;
     padding: .5em;
     border-style: solid;
