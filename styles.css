@@ -1,30 +1,33 @@
 body {
-    background-color: #f5f5dc;
+    background-color: #7486FF;
     color: black;
-    background-image: url(images/opacity2.png);
-    background-size: 65%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed;
     font-family: sans-serif;
-    padding: 25px;
-    margin: 20px;
-    line-height: 2;
+    font-size: 100%;
+    padding: 1.5em; 
+    margin: 1em;
 }
 
 h1 {
-    font-size: 60px;
-    margin: 20px;
+    font-size: 6em;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #7486FF;
 }
 
 h2 {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 1.5em;
+    margin: 1em;
 }
 
 h3 {
-    font-size: 30px;
-    margin: 20px;
+    font-size: 1.875em;
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-style: solid;
+    border-width: thick;
 }
 
 a:link {
@@ -42,14 +45,14 @@ a:visited {
 
 p {
     text-align: left;
-    margin: 20px;
-    font-size: 25px;
+    margin: 1.25em;
+    font-size: 1.5em;
     line-height: 3.0;
-}
-
-ul {
-    font-size: 25px;
-    list-style-type: none;
+    background-color: white;
+    padding: 2em;
+    border-style: solid;
+    border-width: medium;
+    
 }
 
 img {
@@ -59,25 +62,80 @@ img {
 
 /* NAVBAR */
 
-.sidenav {
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
+ul {
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
+
+li {
+    float: right;
+}
   
-  .sidenav a {
+li a {
 
     color: black;
     display: block;
   }
   
   .main {
-    margin-left: 200px; /* Same width as the sidebar + left position in px */
-    padding: 0px 10px;
+    margin-left: 12.5em; /* Same width as the NAVBAR + left position in px */
+    padding: 0em 0.625em 10em;
   }
+
+/* form formatting */
+.col-25 {
+    background-color: white;
+    padding: 1em;
+    margin: 0em 0em 0em 2.25em;
+    width: 10em;
+    border-style: solid;
+    border-width: medium;
+} 
+
+input[type=text] {
+    font-size: 1em;
+    margin: 0em 0em 1em 2.25em;
+    padding: .5em;
+    border-style: solid;
+    border-width: medium;
+}
+
+input[type=email] {
+    font-size: 1em;
+    margin: 0em 0em 1em 2.25em;
+    padding: .5em;
+    border-style: solid;
+    border-width: medium;
+}
+
+textarea[id=message] {
+    font-size: 1em;
+    margin: 0em 0em 1em 2.25em;
+    padding: .5em;
+    border-style: solid;
+    border-width: medium;
+}
+
+input[type=submit] {
+    font-size: 1.5em;
+    margin: 0em 0em 1em 1.5em;
+    padding: .5em;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    background-color: white;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+}
   
-  /* accessibility for mobile - navbar */
+  /* accessibility for mobile - navbar --> should change to em, but have too redo all of it anyway... */
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -106,3 +164,24 @@ img {
       margin-top: 0;
     }
   }
+
+/* waving hand from Jake Jarvis (https://codepen.io/jakejarvis/pen/pBZWZw) */
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
