@@ -23,7 +23,7 @@ h2 {
 
 h3 {
     font-size: 1.875em;
-    margin: 1em;
+    margin: 0em 1em 0em 1em;
     padding: 1em;
     background-color: white;
     border-style: solid;
@@ -45,7 +45,7 @@ a:visited {
 
 p {
     text-align: left;
-    margin: 1.25em;
+    margin: 0em 1.25em 1.25em 2em;
     font-size: 1.5em;
     line-height: 3.0;
     background-color: white;
@@ -86,13 +86,15 @@ li a {
   }
 
 /* form formatting */
+
 .col-25 {
     background-color: white;
     padding: 1em;
     margin: 0em 0em 0em 2.25em;
-    width: 10em;
+    width: 22.62em;
     border-style: solid;
     border-width: medium;
+    font-weight: bold;
 } 
 
 input[type=text] {
