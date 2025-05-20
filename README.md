@@ -6,6 +6,13 @@ If you need a password email me.
 
 *This document will be split into sections for each project. A brief description of the project will be given, as well as any major citations for tutorials that were edited or used in the project.*
 
+# e-waste
+**Website by Lauren Alcindor**
+
+**Project and research for Professor Juan Llamas-Rodriguez's Publics, Forms, and Futures of Multimodal Scholarship course at the University of Pennsylvania**
+
+This project is a work-in-progress!! Please don't pay it too much mind until it's revised more. 
+
 # Trash 2020
 **Story & Tech implementation by Lauren Alcindor**
 
