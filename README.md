@@ -13,6 +13,12 @@ If you need a password email me.
 
 This project is a work-in-progress!! Please don't pay it too much mind until it's revised more. 
 
+# John Amos Comenius 
+**This timeline was a project for Professor Julia Verkholantsev's Universal Language course at the University of Pennsylvania**
+
+The majority of dates and information for this timeline were taken from Jean Piaget's 1993 article "Jan Amos Comenius." Additional works cited available on the project page.
+
+
 # Trash 2020
 **Story & Tech implementation by Lauren Alcindor**
 
