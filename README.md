@@ -10,7 +10,7 @@ If you need a password email me.
 **Created by Lauren Alcindor
 **Project completed as part of Mark Sample's course Creative Coding in University of Pennsylvania's 2025 Dream Lab
 
-This project is meant to serve as a helper for high school students learning basic essay formats. It offers tips on essay structure and users complete an entire essay outline by the end. Please note that it doesn't have a real saving mechanism (yet)! That means if you leave the page, your writing will be lost.
+This project is meant to serve as a helper for students learning basic essay formats. It offers tips on essay structure and users complete an entire essay outline by the end. Please note that it doesn't have a real saving mechanism (yet)! That means if you leave the page, your writing will be lost.
 
 # e-waste
 **Website by Lauren Alcindor**
